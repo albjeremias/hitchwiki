@@ -45,3 +45,8 @@ stop_all.sh | Stop services installed by us
 clean_server.sh | Try to remove traces (stop services, remove installed packages, remove configuration files and delete user)
 update.sh | Now calls the _ansible/update.yml_ playbook
 
+### Docker-compose
+
+` $ docker-compose build hitchwiki`
+
+` $ docker-compose run hitchwiki`
