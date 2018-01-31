@@ -1,0 +1,4 @@
+hitchwiki: 
+  image: hitchwiki:latest
+  volumes:
+      - .:/hitchwiki
