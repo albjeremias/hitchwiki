@@ -10,6 +10,5 @@ RUN pip install -U pip
 RUN pip install ansible
 
 RUN echo 'localhost ansible_connection=local' > /etc/ansible/hosts
-
-RUN cd /var/www/scripts
-RUN ./setup_hitchwiki.sh
+COPY . /var/www/
+RUN cd /var/www/scripts && ./setup_hitchwiki.sh
