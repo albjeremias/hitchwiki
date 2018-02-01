@@ -1,4 +1,4 @@
 hitchwiki: 
   build: .
   volumes:
-      - .:/hitchwiki
+      - .:/var/www
